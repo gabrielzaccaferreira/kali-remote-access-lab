@@ -1,4 +1,22 @@
 
+
+## Sumário
+
+- [Objetivo](#objetivo)
+- [Ambiente Utilizado](#ambiente-utilizado)
+- [Topologia](#topologia)
+- [Objetivos do Laboratório](#objetivos-do-laboratório)
+- [Configuração de Rede](#configuração-de-rede)
+- [Configuração do SSH](#configuração-do-ssh)
+- [Testes de Conectividade](#testes-de-conectividade)
+- [Conexão SSH](#conexão-ssh)
+- [Configuração do XRDP](#configuração-do-xrdp)
+- [VS Code Remote SSH](#vs-code-remote-ssh)
+- [Troubleshooting](#troubleshooting)
+- [Snapshot VMware](#snapshot-vmware)
+- [Conhecimentos Aplicados](#conhecimentos-aplicados)
+- [Laboratórios do SOC Home Lab](#-laboratórios-do-soc-home-lab)
+
 # Kali Linux Remote Access Lab
 
 ## Objetivo
