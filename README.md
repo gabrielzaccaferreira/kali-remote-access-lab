@@ -1,4 +1,8 @@
+# Kali Linux Remote Access Lab
 
+Laboratório prático de acesso remoto ao Kali Linux em VMware Workstation, utilizando SSH, XRDP e VS Code Remote SSH para administração, documentação técnica e operação remota do ambiente de estudos.
+
+---
 
 ## Sumário
 
@@ -17,7 +21,7 @@
 - [Conhecimentos Aplicados](#conhecimentos-aplicados)
 - [Laboratórios do SOC Home Lab](#-laboratórios-do-soc-home-lab)
 
-# Kali Linux Remote Access Lab
+---
 
 ## Objetivo
 
