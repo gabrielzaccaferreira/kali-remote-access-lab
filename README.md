@@ -111,7 +111,7 @@ hostname -I
 Resultado:
 
 ```text
-192.168.0.125
+10.10.10.20
 ```
 
 ---
@@ -147,7 +147,7 @@ sudo systemctl status ssh
 No cliente:
 
 ```bash
-ping 192.168.0.125
+ping 10.10.10.20
 ```
 
 ## Porta SSH
@@ -155,7 +155,7 @@ ping 192.168.0.125
 PowerShell:
 
 ```powershell
-Test-NetConnection 192.168.0.125 -Port 22
+Test-NetConnection 10.10.10.20 -Port 22
 ```
 
 Resultado esperado:
@@ -169,7 +169,7 @@ TcpTestSucceeded : True
 # Conexão SSH
 
 ```bash
-ssh kali@192.168.0.125
+ssh kali@10.10.10.20
 ```
 
 ---
@@ -256,7 +256,7 @@ Remote - SSH (Microsoft)
 ## Host Configurado
 
 ```text
-ssh kali@192.168.0.125
+ssh kali@10.10.10.20
 ```
 
 ## Benefícios
@@ -305,6 +305,20 @@ Permitir rápida restauração do ambiente funcional.
 
 ---
 
+# Evidências
+
+As capturas ficam na pasta `screenshots/`.
+
+![Acesso SSH remoto](screenshots/01-ssh-access.png)
+
+![Serviços ativos](screenshots/02-services-active.png)
+
+![Visão geral no VMware](screenshots/03-lab-overview-vmware.png)
+
+![VS Code Remote SSH](screenshots/04-vscode-remote-ssh.png)
+
+---
+
 # Conhecimentos Aplicados
 
 * Linux Administration
@@ -319,22 +333,13 @@ Permitir rápida restauração do ambiente funcional.
 
 ---
 
-# Próximos Laboratórios
+# Evoluções Futuras
 
-* Git e GitHub
-* Linux Administration
-* Wireshark
-* TCP/IP
-* CrowdSec
-* Suricata
-* Nmap
-* VLANs
-* Active Directory
-* Azure
-
-```
-```
-
+* Melhorar hardening do SSH;
+* documentar automações de setup;
+* organizar scripts de pós-instalação;
+* manter integração com Wazuh, Suricata, CrowdSec, Docker e pfSense;
+* criar snapshots por fase do laboratório.
 
 ---
 
